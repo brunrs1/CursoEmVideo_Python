@@ -1,0 +1,5 @@
+ex = input('Digite algo: ')
+print(f'Você escreveu {ex}, ele é um numero?', ex.isalnum())
+print(f'Você escreveu {ex},ele tem espaço?', ex.isspace())
+print(f'Você escreve {ex}, ele ta em maiusculo?', ex.isalpha())
+print(f'Você escreveu {ex}, ele ta em minusculo?', ex.islower())
